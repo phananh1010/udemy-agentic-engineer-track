@@ -1,0 +1,10 @@
+dotenv
+openai
+openai-agents
+sendgrid
+langchain_core
+langgraph
+perplexityai
+tavily-python
+ -e /home/anh/workspace/agent-trd
+ -e /home/anh/workspace/trading-history-service
