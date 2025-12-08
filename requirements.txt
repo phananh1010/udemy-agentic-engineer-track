@@ -9,4 +9,6 @@ tavily-python
  -e /home/anh/workspace/agent-trd
  -e /home/anh/workspace/trading-history-service
 
- gradio
+gradio
+langchain
+langchain_openai
