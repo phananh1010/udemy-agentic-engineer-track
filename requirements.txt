@@ -12,3 +12,4 @@ tavily-python
 gradio
 langchain
 langchain_openai
+langchain-community
