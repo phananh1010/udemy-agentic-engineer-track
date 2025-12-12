@@ -13,3 +13,5 @@ gradio
 langchain
 langchain_openai
 langchain-community
+langchain_experimental
+wikipedia
