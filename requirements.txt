@@ -6,6 +6,7 @@ langchain_core
 langgraph
 perplexityai
 tavily-python
+polygon-api-client
  -e /home/anh/workspace/agent-trd
  -e /home/anh/workspace/trading-history-service
 
