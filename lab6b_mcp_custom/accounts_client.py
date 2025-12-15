@@ -2,9 +2,10 @@ import mcp
 from mcp.client.stdio import stdio_client
 from mcp import StdioServerParameters
 from agents import FunctionTool
+import os
 import json
 
-params = StdioServerParameters(command="uv", args=["run", "accounts_server.py"], env=None)
+params = StdioServerParameters(command="uv", args=["run", "accounts_server.py"], env=dict(os.environ))
 
 async def list_accounts_tools():
     async with stdio_client(params) as streams:
