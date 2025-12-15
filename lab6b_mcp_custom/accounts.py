@@ -2,8 +2,8 @@ from pydantic import BaseModel
 import json
 from dotenv import load_dotenv
 from datetime import datetime
-from market import get_share_price
-from database import write_account, read_account, write_log
+from .market import get_share_price
+from .database import write_account, read_account, write_log
 import sys
 
 

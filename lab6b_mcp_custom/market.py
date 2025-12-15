@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 from datetime import datetime
 import random
-from database import write_market, read_market
+from .database import write_market, read_market
 from functools import lru_cache
 from datetime import timezone
 
